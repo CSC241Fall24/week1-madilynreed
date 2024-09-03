@@ -4,7 +4,6 @@ public class Bulbasaur {
 
     // Constructor
     public Bulbasaur() {
-        // TODO: Initialize id and level with appropriate values
         this.id = 1;
         this.level = 1;
     }
@@ -53,7 +52,7 @@ public class Bulbasaur {
     public String toString() {
         // TODO: Implement this method
         // Return a string representation of the Bulbasaur object
-        return "Bulbasaur stats:\nID: " + getID() + "\nLevel: " + getLevel() + "\nName: " + getName();
+        return "Level: " + getLevel() +", ID: " + getID();
     }
 
     // equals method
